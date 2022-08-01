@@ -13,7 +13,7 @@ cp -Rf /tmp/src/*.html ./
 DATE='date "%Y-%m-%d:%H.%M.%s'
 
 echo "--Creating Info page"
-echo "Todays date time is ${DATE}" > /var/www/html/info.html
+echo "Todays date time is ${DATE}" > ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
